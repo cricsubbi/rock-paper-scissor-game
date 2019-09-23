@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+.roc{
+    max-width: 300px !important;  max-height: 500px !important;
+    border: 2px solid red;border-radius: 55px;margin: 50px auto;
+}
+.roc:hover{
+    cursor: pointer;
+    background: bisque;
+}
+.pap{
+    max-width: 300px !important;  max-height: 500px !important;
+    border: 2px solid red;border-radius: 55px;margin: 70px auto;
+}
+.pap:hover{
+    cursor: pointer;
+    background: bisque;
+}
+
+    .sci{
+    max-width: 300px !important;  max-height: 400px !important;
+    border: 2px solid red;border-radius: 70px;
+}
+.sci:hover{
+    cursor: pointer;
+    background: bisque;
+}
+body{
+    background-color: rgb(37, 16, 114) !important;
+}
+h1{
+    font-family: 'Roboto Slab' , serif;text-align: center;text-transform: capitalize;
+   background-color: aliceblue;
+}
+.score-board{
+    border: 2px solid whitesmoke;width:150px;margin: 25px auto;color: aquamarine;font-size: 30px;
+    border-radius: 70px;text-align: center;padding: 12px 15px;
+position: relative;
+}
+.badge{
+    font-family: 'Mansalva', cursive;
+}
+#user{
+    position: absolute;
+    top:20px;
+    left:-20px;
+    
+}
+#comp{
+    position: absolute;
+    top:20px;
+    left:100px;
+    
+}
+.result{
+    text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 40px;color: burlywood;text-transform: capitalize;
+}
+#act-messg{
+    text-align: center;font-size: 25px;color: darkorange;font-weight: bold;
+}
